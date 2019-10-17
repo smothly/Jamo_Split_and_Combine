@@ -57,7 +57,7 @@ def jamo_combine(word):
         # char가 한글이 아닌경우는 그냥 추가한다.
         if char not in TOTAL:
             result += char
-            print(char)
+            # print(char)
             continue
             
         # 한글이면 초성 중성 종성에 있는 걸 해당하고 어디에 해당하는지 찾는다
