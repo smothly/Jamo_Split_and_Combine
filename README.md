@@ -17,6 +17,7 @@ from Jamo_Split import jamo_split, jamo_combine
 
 jamo_split("바보")
 jamo_combine("ㅂㅏ_ㅂㅗ_")
+jamo_combine(jamo_split("아니 ㅠㅠ 이런것도 된다고!! result?? ㅏㅏㅁ나"))
 ```
 
 # jamo_split
